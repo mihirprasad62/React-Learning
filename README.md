@@ -22,4 +22,7 @@ Javascript functions returns HTML.
 <br>
 ES6 classes that extends React.Component,must have render method that return HTML.
 
+# Functional Component
+
+Functional Components are javascript functions that optionally receives props and returns JSX.
 

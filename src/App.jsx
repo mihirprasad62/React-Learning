@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Greet from './components/Greet'
 
-const App = () => {
-  return (
-    <>
-    <h1>Hello World</h1>
-    </>
-  )
+export class App extends Component {
+  render() {
+    return (
+      <>
+      <Greet/>
+      </>
+    )
+  }
 }
 
 export default App
